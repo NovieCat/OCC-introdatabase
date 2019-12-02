@@ -1,0 +1,223 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="17F20A18-1218-AF22-19D2-1C43AB1769DA" name="CLST">
+<createdBy>rasu</createdBy>
+<createdTime>2016-09-09 02:19:30 UTC</createdTime>
+<ownerDesignName>CollSchd DM</ownerDesignName>
+<engineerTo>
+<item key="63979DD1-A9C6-6644-E3AA-66B63D852DFF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CRSE_DISC" id="CBE5BCE8-7B83-7F88-73CF-E8BC3428F10D">
+<createdBy>rasu</createdBy>
+<createdTime>2016-09-09 02:28:35 UTC</createdTime>
+<generatorID>3259D2C7-3749-9E42-D7DD-242D837AA96A</generatorID>
+<ownerDesignName>CollSchd DM</ownerDesignName>
+<engineerTo>
+<item key="63979DD1-A9C6-6644-E3AA-66B63D852DFF" value="true"/>
+</engineerTo>
+<referedAttribute>66CA0042-5A39-D73F-B29E-0B1663F4723D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CRSE_ID" id="231DD7E2-C7EF-D3AF-6FBA-B84B5997A76C">
+<createdBy>rasu</createdBy>
+<createdTime>2016-09-09 02:28:35 UTC</createdTime>
+<generatorID>3259D2C7-3749-9E42-D7DD-242D837AA96A</generatorID>
+<ownerDesignName>CollSchd DM</ownerDesignName>
+<engineerTo>
+<item key="63979DD1-A9C6-6644-E3AA-66B63D852DFF" value="true"/>
+</engineerTo>
+<referedAttribute>34FE8985-A092-9BA0-F635-E4A56E3B6B91</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CLAS_YR" id="46A9A1BA-38B6-7C5A-1A9A-7EC3561BBAA0">
+<createdBy>rasu</createdBy>
+<createdTime>2016-09-09 02:28:35 UTC</createdTime>
+<generatorID>3259D2C7-3749-9E42-D7DD-242D837AA96A</generatorID>
+<ownerDesignName>CollSchd DM</ownerDesignName>
+<engineerTo>
+<item key="63979DD1-A9C6-6644-E3AA-66B63D852DFF" value="true"/>
+</engineerTo>
+<referedAttribute>1F23A9DA-E1D6-C680-7C5E-B1669F3005F4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CLAS_TERM" id="135B9CB3-680A-F0AB-9EAB-CAF69CCEDFBA">
+<createdBy>rasu</createdBy>
+<createdTime>2016-09-09 02:28:35 UTC</createdTime>
+<generatorID>3259D2C7-3749-9E42-D7DD-242D837AA96A</generatorID>
+<ownerDesignName>CollSchd DM</ownerDesignName>
+<engineerTo>
+<item key="63979DD1-A9C6-6644-E3AA-66B63D852DFF" value="true"/>
+</engineerTo>
+<referedAttribute>24C1F3F4-5F23-9E2C-160C-77BA2AA8BD14</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CLAS_SECT_CAMP" id="2F5562C0-09D8-1CEF-F8F0-11BE5F3CF880">
+<createdBy>rasu</createdBy>
+<createdTime>2016-09-09 02:28:35 UTC</createdTime>
+<generatorID>3259D2C7-3749-9E42-D7DD-242D837AA96A</generatorID>
+<ownerDesignName>CollSchd DM</ownerDesignName>
+<engineerTo>
+<item key="63979DD1-A9C6-6644-E3AA-66B63D852DFF" value="true"/>
+</engineerTo>
+<referedAttribute>50C54963-2C4D-687E-6FB0-EE4AE4B6DF8A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CLAS_SECT_ID" id="6C4CC768-A764-B2B2-6D4F-B959283065B9">
+<createdBy>rasu</createdBy>
+<createdTime>2016-09-09 02:28:35 UTC</createdTime>
+<generatorID>3259D2C7-3749-9E42-D7DD-242D837AA96A</generatorID>
+<ownerDesignName>CollSchd DM</ownerDesignName>
+<engineerTo>
+<item key="63979DD1-A9C6-6644-E3AA-66B63D852DFF" value="true"/>
+</engineerTo>
+<referedAttribute>8BE7843F-A60E-1807-3D6E-DB30B1BFE4AA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="STUD_ID" id="9653AA42-3055-44F4-8FCC-8396CE280B10">
+<createdBy>rasu</createdBy>
+<createdTime>2016-09-09 02:30:04 UTC</createdTime>
+<generatorID>2568E899-B647-370C-AE8E-8E4053FAB716</generatorID>
+<ownerDesignName>CollSchd DM</ownerDesignName>
+<engineerTo>
+<item key="63979DD1-A9C6-6644-E3AA-66B63D852DFF" value="true"/>
+</engineerTo>
+<referedAttribute>D7AB3A41-6480-E9BB-C78B-3196EECB8BB2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CLST_PMID_EXAM" id="352F6EEA-9F9C-F514-AB47-A61C21703A71">
+<createdBy>rasu</createdBy>
+<createdTime>2016-09-09 02:23:52 UTC</createdTime>
+<ownerDesignName>CollSchd DM</ownerDesignName>
+<engineerTo>
+<item key="63979DD1-A9C6-6644-E3AA-66B63D852DFF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CLST_MID_EXAM" id="CED5A279-337B-CD26-0720-2BA1A8643CA1">
+<createdBy>rasu</createdBy>
+<createdTime>2016-09-09 02:24:17 UTC</createdTime>
+<ownerDesignName>CollSchd DM</ownerDesignName>
+<engineerTo>
+<item key="63979DD1-A9C6-6644-E3AA-66B63D852DFF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CLST_FNL_EXAM" id="BF555055-7B53-AF55-7D20-CD6E918D058D">
+<createdBy>rasu</createdBy>
+<createdTime>2016-09-09 02:24:36 UTC</createdTime>
+<ownerDesignName>CollSchd DM</ownerDesignName>
+<engineerTo>
+<item key="63979DD1-A9C6-6644-E3AA-66B63D852DFF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CLST_FNL_GRD" id="4BEF8FDB-ACD3-CD31-DA7E-D3C0DF41BE7E">
+<createdBy>rasu</createdBy>
+<createdTime>2016-09-09 02:24:56 UTC</createdTime>
+<ownerDesignName>CollSchd DM</ownerDesignName>
+<engineerTo>
+<item key="63979DD1-A9C6-6644-E3AA-66B63D852DFF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CLST_WDRW_FLG" id="112E7965-EAEE-652E-533E-41DEDD40FA22">
+<createdBy>rasu</createdBy>
+<createdTime>2016-09-09 02:25:17 UTC</createdTime>
+<ownerDesignName>CollSchd DM</ownerDesignName>
+<engineerTo>
+<item key="63979DD1-A9C6-6644-E3AA-66B63D852DFF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT034</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CLST_WDRW_DAT" id="9D29B946-289D-8852-E968-D7F0166FB644">
+<createdBy>rasu</createdBy>
+<createdTime>2016-09-09 02:25:48 UTC</createdTime>
+<ownerDesignName>CollSchd DM</ownerDesignName>
+<engineerTo>
+<item key="63979DD1-A9C6-6644-E3AA-66B63D852DFF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6229ADDF-C5C2-2A67-60BA-F0E7445D44D1" name="CLST PK">
+<createdBy>rasu</createdBy>
+<createdTime>2016-09-09 02:19:55 UTC</createdTime>
+<ownerDesignName>CollSchd DM</ownerDesignName>
+<engineerTo>
+<item key="63979DD1-A9C6-6644-E3AA-66B63D852DFF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>46A9A1BA-38B6-7C5A-1A9A-7EC3561BBAA0</attributeRef>
+<attributeRef>135B9CB3-680A-F0AB-9EAB-CAF69CCEDFBA</attributeRef>
+<attributeRef>2F5562C0-09D8-1CEF-F8F0-11BE5F3CF880</attributeRef>
+<attributeRef>6C4CC768-A764-B2B2-6D4F-B959283065B9</attributeRef>
+<attributeRef>CBE5BCE8-7B83-7F88-73CF-E8BC3428F10D</attributeRef>
+<attributeRef>231DD7E2-C7EF-D3AF-6FBA-B84B5997A76C</attributeRef>
+<attributeRef>9653AA42-3055-44F4-8FCC-8396CE280B10</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Enrolls into" directorySegmentName="seg_0" id="2568E899-B647-370C-AE8E-8E4053FAB716">
+<createdBy>rasu</createdBy>
+<createdTime>2016-09-09 02:30:04 UTC</createdTime>
+<ownerDesignName>CollSchd DM</ownerDesignName>
+<engineerTo>
+<item key="63979DD1-A9C6-6644-E3AA-66B63D852DFF" value="true"/>
+</engineerTo>
+<sourcePk>C5F4C78A-2718-01DC-15A5-02B75B145BD6</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7E7ECA3F-CEA7-116A-CB2B-8E20FCD135BE</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>17F20A18-1218-AF22-19D2-1C43AB1769DA</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

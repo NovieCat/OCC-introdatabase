@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A094CFC8-A703-884A-EC41-9C35564AC39A" name="Nurse">
+<createdBy>rasu</createdBy>
+<createdTime>2016-09-04 06:37:52 UTC</createdTime>
+<ownerDesignName>Hospital</ownerDesignName>
+<engineerTo>
+<item key="53B6A5AC-46DA-3219-4263-D5F1DCC255D4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Name" id="396332B5-81EA-27E4-85C7-CD7576F01E1C">
+<createdBy>rasu</createdBy>
+<createdTime>2016-09-04 06:42:45 UTC</createdTime>
+<ownerDesignName>Hospital</ownerDesignName>
+<engineerTo>
+<item key="53B6A5AC-46DA-3219-4263-D5F1DCC255D4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Gender" id="0A6A63F4-295A-E38F-29C0-4D99535168CE">
+<createdBy>rasu</createdBy>
+<createdTime>2016-09-04 06:43:00 UTC</createdTime>
+<ownerDesignName>Hospital</ownerDesignName>
+<engineerTo>
+<item key="53B6A5AC-46DA-3219-4263-D5F1DCC255D4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT033</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Height" id="C5C281CD-BFA6-3FA3-7EED-3E9A04342BC5">
+<createdBy>rasu</createdBy>
+<createdTime>2016-09-04 06:43:42 UTC</createdTime>
+<ownerDesignName>Hospital</ownerDesignName>
+<engineerTo>
+<item key="53B6A5AC-46DA-3219-4263-D5F1DCC255D4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID Number" id="41C90A49-88A4-8EB1-D61D-998C923DF24E">
+<createdBy>rasu</createdBy>
+<createdTime>2016-09-04 06:44:34 UTC</createdTime>
+<ownerDesignName>Hospital</ownerDesignName>
+<engineerTo>
+<item key="53B6A5AC-46DA-3219-4263-D5F1DCC255D4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9D6C4942-0E03-5696-301F-B4BD28F19AB7" name="Nurse PK">
+<createdBy>rasu</createdBy>
+<createdTime>2016-09-04 06:43:03 UTC</createdTime>
+<ownerDesignName>Hospital</ownerDesignName>
+<engineerTo>
+<item key="53B6A5AC-46DA-3219-4263-D5F1DCC255D4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>396332B5-81EA-27E4-85C7-CD7576F01E1C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

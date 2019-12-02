@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Instructs" directorySegmentName="seg_0" id="DFF8C6F9-69D9-84D2-922C-8025920A792E">
+<createdBy>rasu</createdBy>
+<createdTime>2016-09-09 02:27:12 UTC</createdTime>
+<ownerDesignName>CollSchd DM</ownerDesignName>
+<engineerTo>
+<item key="63979DD1-A9C6-6644-E3AA-66B63D852DFF" value="true"/>
+</engineerTo>
+<sourcePk>C0E4B09F-759F-6736-FB62-4F1E12FBBB61</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2FF70635-7331-B52A-9836-911E88146411</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>BB86744F-72ED-F3B7-33A1-70A5DF068E25</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

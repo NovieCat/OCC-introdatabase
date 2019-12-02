@@ -1,0 +1,188 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BB86744F-72ED-F3B7-33A1-70A5DF068E25" name="CLAS">
+<createdBy>rasu</createdBy>
+<createdTime>2016-09-09 02:13:33 UTC</createdTime>
+<ownerDesignName>CollSchd DM</ownerDesignName>
+<engineerTo>
+<item key="63979DD1-A9C6-6644-E3AA-66B63D852DFF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CRSE_DISC" id="66CA0042-5A39-D73F-B29E-0B1663F4723D">
+<createdBy>rasu</createdBy>
+<createdTime>2016-09-09 02:28:09 UTC</createdTime>
+<generatorID>EC86737C-7738-9181-3502-887386B0E07E</generatorID>
+<ownerDesignName>CollSchd DM</ownerDesignName>
+<engineerTo>
+<item key="63979DD1-A9C6-6644-E3AA-66B63D852DFF" value="true"/>
+</engineerTo>
+<referedAttribute>E1ABEAF5-3C29-F664-B7F7-EBCF3AECC3BF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CRSE_ID" id="34FE8985-A092-9BA0-F635-E4A56E3B6B91">
+<createdBy>rasu</createdBy>
+<createdTime>2016-09-09 02:28:09 UTC</createdTime>
+<generatorID>EC86737C-7738-9181-3502-887386B0E07E</generatorID>
+<ownerDesignName>CollSchd DM</ownerDesignName>
+<engineerTo>
+<item key="63979DD1-A9C6-6644-E3AA-66B63D852DFF" value="true"/>
+</engineerTo>
+<referedAttribute>11A11F73-029A-EC01-F8C2-41717ED92FE0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CLAS_YR" id="1F23A9DA-E1D6-C680-7C5E-B1669F3005F4">
+<createdBy>rasu</createdBy>
+<createdTime>2016-09-09 02:15:13 UTC</createdTime>
+<ownerDesignName>CollSchd DM</ownerDesignName>
+<engineerTo>
+<item key="63979DD1-A9C6-6644-E3AA-66B63D852DFF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CLAS_TERM" id="24C1F3F4-5F23-9E2C-160C-77BA2AA8BD14">
+<createdBy>rasu</createdBy>
+<createdTime>2016-09-09 02:15:34 UTC</createdTime>
+<ownerDesignName>CollSchd DM</ownerDesignName>
+<engineerTo>
+<item key="63979DD1-A9C6-6644-E3AA-66B63D852DFF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CLAS_SECT_CAMP" id="50C54963-2C4D-687E-6FB0-EE4AE4B6DF8A">
+<createdBy>rasu</createdBy>
+<createdTime>2016-09-09 02:15:56 UTC</createdTime>
+<ownerDesignName>CollSchd DM</ownerDesignName>
+<engineerTo>
+<item key="63979DD1-A9C6-6644-E3AA-66B63D852DFF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CLAS_SECT_ID" id="8BE7843F-A60E-1807-3D6E-DB30B1BFE4AA">
+<createdBy>rasu</createdBy>
+<createdTime>2016-09-09 02:16:13 UTC</createdTime>
+<ownerDesignName>CollSchd DM</ownerDesignName>
+<engineerTo>
+<item key="63979DD1-A9C6-6644-E3AA-66B63D852DFF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CLAS_REG_CD" id="A7AD5527-55DC-3F1E-2F7C-D29FE79E2292">
+<createdBy>rasu</createdBy>
+<createdTime>2016-09-09 02:16:39 UTC</createdTime>
+<ownerDesignName>CollSchd DM</ownerDesignName>
+<engineerTo>
+<item key="63979DD1-A9C6-6644-E3AA-66B63D852DFF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PROF_ID" id="F807FE4D-9124-EB31-3182-AAAC308B3C3A">
+<createdBy>rasu</createdBy>
+<createdTime>2016-09-09 02:27:12 UTC</createdTime>
+<generatorID>DFF8C6F9-69D9-84D2-922C-8025920A792E</generatorID>
+<ownerDesignName>CollSchd DM</ownerDesignName>
+<engineerTo>
+<item key="63979DD1-A9C6-6644-E3AA-66B63D852DFF" value="true"/>
+</engineerTo>
+<referedAttribute>35EA9956-3AD1-85D3-CA60-028AB3405BCA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CLAS_DAYS" id="2B4F4829-65AA-817C-5CBF-5B9566B90EA8">
+<createdBy>rasu</createdBy>
+<createdTime>2016-09-09 02:17:16 UTC</createdTime>
+<ownerDesignName>CollSchd DM</ownerDesignName>
+<engineerTo>
+<item key="63979DD1-A9C6-6644-E3AA-66B63D852DFF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CLAS_STIM" id="F37457DC-553B-6FB4-CAB3-61D5412DB5CF">
+<createdBy>rasu</createdBy>
+<createdTime>2016-09-09 02:17:29 UTC</createdTime>
+<ownerDesignName>CollSchd DM</ownerDesignName>
+<engineerTo>
+<item key="63979DD1-A9C6-6644-E3AA-66B63D852DFF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT038</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CLAS_ETIM" id="66BE1D2A-27E2-906F-2C1A-27BFF1144867">
+<createdBy>rasu</createdBy>
+<createdTime>2016-09-09 02:17:49 UTC</createdTime>
+<ownerDesignName>CollSchd DM</ownerDesignName>
+<engineerTo>
+<item key="63979DD1-A9C6-6644-E3AA-66B63D852DFF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT038</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7B0F1128-7471-B94D-4E03-980E078420FA" name="CLAS PK">
+<createdBy>rasu</createdBy>
+<createdTime>2016-09-09 02:14:20 UTC</createdTime>
+<ownerDesignName>CollSchd DM</ownerDesignName>
+<engineerTo>
+<item key="63979DD1-A9C6-6644-E3AA-66B63D852DFF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1F23A9DA-E1D6-C680-7C5E-B1669F3005F4</attributeRef>
+<attributeRef>24C1F3F4-5F23-9E2C-160C-77BA2AA8BD14</attributeRef>
+<attributeRef>50C54963-2C4D-687E-6FB0-EE4AE4B6DF8A</attributeRef>
+<attributeRef>8BE7843F-A60E-1807-3D6E-DB30B1BFE4AA</attributeRef>
+<attributeRef>66CA0042-5A39-D73F-B29E-0B1663F4723D</attributeRef>
+<attributeRef>34FE8985-A092-9BA0-F635-E4A56E3B6B91</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

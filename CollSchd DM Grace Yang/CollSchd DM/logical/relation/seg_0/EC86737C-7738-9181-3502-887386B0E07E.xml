@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Has Schedule of" directorySegmentName="seg_0" id="EC86737C-7738-9181-3502-887386B0E07E">
+<createdBy>rasu</createdBy>
+<createdTime>2016-09-09 02:28:09 UTC</createdTime>
+<ownerDesignName>CollSchd DM</ownerDesignName>
+<engineerTo>
+<item key="63979DD1-A9C6-6644-E3AA-66B63D852DFF" value="true"/>
+</engineerTo>
+<sourcePk>57267297-926B-E9A6-D89D-E132014AD27C</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>54F5FECE-C024-B26C-5627-412A5C08D73E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>BB86744F-72ED-F3B7-33A1-70A5DF068E25</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
